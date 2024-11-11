@@ -11,6 +11,7 @@ import ContentViewer from './components/ContentViewer'
 import CourseContent from './components/CourseContent'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Schedule from './components/Schedule'
+import Register from './components/Register'
 
 function   App() {
   const [count, setCount] = useState(0)
@@ -18,7 +19,9 @@ function   App() {
   return (
      <>
        
-        <Login></Login>       
+        {/* <Login></Login>        */}
+
+        <Register></Register>
       {/* <DashBoard></DashBoard>    
      
        {/* <ContentViewer></ContentViewer>  */}
