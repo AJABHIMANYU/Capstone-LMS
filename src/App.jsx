@@ -6,12 +6,15 @@ import Login from './components/Login'
 // import './index.css'
 import DashBoard from './components/DashBoard'
 import Sidebar from './components/SideBar'
-import ModuleSidebar from './components/ModuleSIdebar'
+// import ModuleSidebar from './components/ModuleSIdebar'
 import ContentViewer from './components/ContentViewer'
 import CourseContent from './components/CourseContent'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import Schedule from './components/Schedule'
 import Register from './components/Register'
+import Feedback from './components/Feedback'
+import HomePage from './components/HomePage'
+import Navbar from './components/Navbar'
 
 function   App() {
   const [count, setCount] = useState(0)
@@ -21,10 +24,15 @@ function   App() {
        
         {/* <Login></Login>        */}
 
-        <Register></Register>
-      {/* <DashBoard></DashBoard>    
+        {/* <Register></Register> */}
+       {/* <DashBoard></DashBoard>     */}
+{/* 
+       <Feedback></Feedback> */}
      
-       {/* <ContentViewer></ContentViewer>  */}
+       {/* <CourseContent></CourseContent> */}
+       {/* <ModuleSidebar></ModuleSidebar> */}
+
+       {/* <HomePage></HomePage> */}
      
 
   
