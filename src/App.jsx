@@ -15,6 +15,9 @@ import Register from './components/Register'
 import Feedback from './components/Feedback'
 import HomePage from './components/HomePage'
 import Navbar from './components/Navbar'
+import AddModuleMain from './components/AddCourse/AddModuleMain'
+import CourseForm from './components/AddCourse/CourseForm'
+
 
 function   App() {
   const [count, setCount] = useState(0)
@@ -33,7 +36,9 @@ function   App() {
        {/* <ModuleSidebar></ModuleSidebar> */}
 
        {/* <HomePage></HomePage> */}
-     
+
+       <AddModuleMain></AddModuleMain>
+     {/* <ModuleFormMain></ModuleFormMain> */}
 
   
      </>
