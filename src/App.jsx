@@ -17,6 +17,7 @@ import HomePage from './components/HomePage'
 import Navbar from './components/Navbar'
 import AddModuleMain from './components/AddCourse/AddModuleMain'
 import CourseForm from './components/AddCourse/CourseForm'
+import AdminHome from './components/Admin/AdminHome'
 
 
 function   App() {
@@ -37,8 +38,9 @@ function   App() {
 
        {/* <HomePage></HomePage> */}
 
-       <AddModuleMain></AddModuleMain>
+       {/* <AddModuleMain></AddModuleMain> */}
      {/* <ModuleFormMain></ModuleFormMain> */}
+     <AdminHome></AdminHome>
 
   
      </>
